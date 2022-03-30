@@ -1,0 +1,44 @@
+.nav-container {
+    width: 100%;
+    background: transparent;
+    position: fixed;
+    right: 0;
+    z-index: 1;
+}
+
+.nav-container.active {
+    background: rgba( 110, 22, 127, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba(63, 76, 255, 0.096);
+    backdrop-filter: blur( 20px );
+}
+
+.navbar {
+    width: 90%;
+    margin: auto;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo > h1 {
+    color: #d700ff;
+    font-size: 17px;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.list-group > li {
+    display: inline-block;
+    margin: 0 10px;
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.list-group > li:hover {
+    color: #d700ff;
+    transition: all 0.3s;
+}

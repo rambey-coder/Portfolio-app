@@ -1,0 +1,28 @@
+/* #6e167f
+#230029
+#774f7f
+#B01CCC
+#d700ff */
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  background: #230029;
+  height: 400vh;
+}
+
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #6e167f;       
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #774f7f;    
+  border-radius: 20px;
+}
