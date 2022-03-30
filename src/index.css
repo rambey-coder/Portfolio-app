@@ -10,7 +10,7 @@ body {
   box-sizing: border-box;
   font-family: 'Inter', sans-serif;
   background: #230029;
-  height: 400vh;
+  overflow-x: hidden;
 }
 
 
