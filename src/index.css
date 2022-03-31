@@ -26,3 +26,11 @@ body {
   background-color: #774f7f;    
   border-radius: 20px;
 }
+
+.loaders {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #fff;
+}
