@@ -1,7 +1,7 @@
 import React from 'react'
 import './Navbar.css'
 import { useState } from 'react'
-import { motion } from "framer-motion"
+// import { motion } from "framer-motion"
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);

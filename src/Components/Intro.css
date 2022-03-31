@@ -1,8 +1,8 @@
-.abt-container {
+.intro-container {
     width: 90%;
     margin: auto;
     position: relative;
-    top: 5rem;
+    top: 4rem;
 }
 
 .sub-container {
@@ -54,9 +54,32 @@ button {
     border-radius: 5px;
     color: #f6ccef;
     cursor: pointer;
+    margin-top: 10px;
 }
 
 button:hover {
     background-color: #6d167f3d;
     transition: 0.3s linear;
+}
+
+.side1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40vh;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    bottom: 0;
+}
+
+span {
+    width: 1px;
+    height: 70px;
+    background: #a588b0;
+}
+
+.icon {
+    width: 20px;
 }

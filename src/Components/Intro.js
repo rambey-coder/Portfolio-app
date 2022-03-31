@@ -1,9 +1,22 @@
 import React from 'react'
-import './About.css'
+import './Intro.css' 
+// import { Link } from 'react-router-dom'
 
-const About = () => {
+const Intro = () => {
   return (
-    <div className="abt-container" id="About">
+    <div className="intro-container">
+      <div className="side1">
+
+          <img src="./Assets/github.svg" alt="icon" className='icon'/>
+
+          <img src="./Assets/linkedIn.svg" alt="icon" className='icon'/>
+
+          <img src="./Assets/twitter.svg" alt="icon" className='icon'/>
+
+          <img src="./Assets/instagram.svg" alt="icon" className='icon'/>
+
+        <span></span>
+      </div>
         <div className="sub-container">
           <div className="block-flex">
             <p>Hi, my name is</p>
@@ -18,4 +31,4 @@ const About = () => {
   )
 }
 
-export default About
+export default Intro
