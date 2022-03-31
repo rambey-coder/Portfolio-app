@@ -18,7 +18,7 @@
 }
 
 .block-flex > h2 {
-    font-size: 7vw;
+    font-size: 80px;
     color: #f6ccef;
     margin: 8px 0;
     font-weight: 700;
@@ -38,7 +38,7 @@
 
 .block-flex > p:nth-child(5) {
     color: #a588b0;
-    font-size: 1.2vw;
+    font-size: 13px;
     width: 45vw;
     text-align: justify;
     font-weight: 500;
