@@ -2,14 +2,14 @@
     width: 90%;
     margin: auto;
     position: relative;
-    top: 4rem;
+    top: 6rem;
 }
 
 .sub-container {
     width: 80%;
     margin: auto;
-    display: flex;
-    align-items: center;
+    /* display: flex;
+    align-items: center; */
 }
 
 .block-flex > p {
@@ -39,8 +39,8 @@
 .block-flex > p:nth-child(5) {
     color: #a588b0;
     font-size: 13px;
-    width: 45vw;
-    text-align: justify;
+    width: 40vw;
+    /* text-align: justify; */
     font-weight: 500;
 }
 
@@ -82,4 +82,31 @@ span {
 
 .icon {
     width: 20px;
+}
+
+
+@media screen and (max-width: 870px) {
+    .block-flex {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .block-flex > p {
+        text-align: center;
+    }
+
+    .block-flex > h2 {
+        font-size: 9vw; 
+    }
+
+    .block-flex > p:nth-child(5) {
+        width: 60vw;
+    }
+
+    .side1 {
+        display: none;
+    }
 }
