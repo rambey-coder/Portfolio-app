@@ -4,6 +4,7 @@
     background: transparent;
     position: fixed;
     right: 0;
+    top: 0;
     z-index: 1;
 }
 
@@ -25,7 +26,7 @@
 
 .logo > h1 {
     color: #d700ff;
-    font-size: 17px;
+    font-size: 19px;
     text-transform: capitalize;
     margin: 0;
 }
@@ -42,22 +43,29 @@
 
 .list-group > li {
     display: inline-block;
-    margin: 0 10px;
-    color: #fff;
-    font-size: 13px;
+    margin: 0 17px;
+    color: #f6ccef;
+    font-size: 14px;
     cursor: pointer;
     text-transform: capitalize;
     font-weight: 400;
+    border: 2px solid transparent;
+    padding: 8px 10px;
+    text-align: center;
 }
 
 .list-group > li:hover {
     color: #d700ff;
+    font-weight: 400;
     transition: all 0.3s linear;
+    border-bottom: 2px solid #d700ff;
 }
 
 .list-group > li:active {
     color: #d700ff;
+    font-weight: 400;
     transition: all 0.3s linear;
+    border-bottom: 2px solid #d700ff
 }
 
 .icons {
@@ -96,7 +104,7 @@
     .list-group {
         position: absolute;
         right: 0;
-        height: 97vh;
+        height: 85vh;
         width: 50%;
         top: 81px;
         backdrop-filter: blur(16px) saturate(180%);

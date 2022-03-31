@@ -1,0 +1,62 @@
+.abt-container {
+    width: 90%;
+    margin: auto;
+    position: relative;
+    top: 5rem;
+}
+
+.sub-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.block-flex > p {
+    color: #d700ff;
+    letter-spacing: 1.3px;
+}
+
+.block-flex > h2 {
+    font-size: 7vw;
+    color: #f6ccef;
+    margin: 8px 0;
+    font-weight: 700;
+}
+
+.block-flex > h1 {
+    color: #a588b0;
+    font-size: 5.3vw;
+    margin: 8px 0;
+    font-weight: 700;
+}
+
+.block-flex > h3 {
+    color: #774f7f;
+    font-size: 2vw;
+}
+
+.block-flex > p:nth-child(5) {
+    color: #a588b0;
+    font-size: 1.2vw;
+    width: 45vw;
+    text-align: justify;
+    font-weight: 500;
+}
+
+button {
+    outline: 0;
+    padding: 10px 20px;
+    width: 180px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #d700ff;
+    border-radius: 5px;
+    color: #f6ccef;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6d167f3d;
+    transition: 0.3s linear;
+}
