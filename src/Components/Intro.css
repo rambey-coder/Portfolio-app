@@ -1,8 +1,16 @@
+/* #1c0c5b
+#3d2c8d
+#916bbf
+#f6ccef
+#a588b0
+#d700ff
+#fff */
+
 .intro-container {
     width: 90%;
     margin: auto;
     position: relative;
-    top: 6rem;
+    top: 7rem;
 }
 
 .sub-container {
@@ -13,7 +21,7 @@
 }
 
 .block-flex > p {
-    color: #d700ff;
+    color: #916bbf;
     letter-spacing: 1.3px;
 }
 
@@ -32,34 +40,61 @@
 }
 
 .block-flex > h3 {
-    color: #774f7f;
+    color: #916bbf;
     font-size: 2vw;
 }
 
 .block-flex > p:nth-child(5) {
-    color: #a588b0;
+    color: #f6ccef;
     font-size: 13px;
     width: 40vw;
     /* text-align: justify; */
+    line-height: 1.8;
     font-weight: 500;
 }
 
 button {
     outline: 0;
-    padding: 10px 20px;
-    width: 180px;
-    height: 50px;
     background: transparent;
-    border: 2px solid #d700ff;
+    border: 2px solid #916bbf;
     border-radius: 5px;
     color: #f6ccef;
-    cursor: pointer;
     margin-top: 10px;
+    min-width: 130px;
+    height: 40px;
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    z-index: 0;
+    overflow: hidden;
 }
 
 button:hover {
-    background-color: #6d167f3d;
-    transition: 0.3s linear;
+    color: #fff;
+}
+
+button:hover:after {
+    width: 100%;
+}
+
+button:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: #3d2c8d;
+}
+
+button:active {
+    color: #1c0c5b;
 }
 
 .side1 {
@@ -80,10 +115,28 @@ span {
     background: #a588b0;
 }
 
-.icon {
-    width: 20px;
+svg:hover {
+    stroke: #ffffff;
 }
 
+/* .icon {
+    width: 20px;
+} */
+
+.icon-link:hover {
+    animation: rotate-in-center 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes rotate-in-center {
+    0% {
+      transform: rotate(-360deg);
+      opacity: 0;
+    }
+    100% {
+      transform: rotate(0);
+      opacity: 1;
+    }
+  }
 
 @media screen and (max-width: 870px) {
     .block-flex {
@@ -108,5 +161,11 @@ span {
 
     .side1 {
         display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .block-flex > p:nth-child(5) {
+        width: 100%;
     }
 }

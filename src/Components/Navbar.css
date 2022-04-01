@@ -2,6 +2,7 @@
 #3d2c8d
 #916bbf
 #f6ccef
+#d700ff
 #fff */
 
 .nav-container {
@@ -169,7 +170,7 @@
         top: 81px;
         backdrop-filter: blur(17px) saturate(191%);
         background-color: rgba(61, 44, 141, 0.66);
-        border: 1px solid #f6ccefa4;
+        /* border: 1px solid #f6ccefa4; */
         display: flex;
         flex-direction: column;
         align-items: center;
