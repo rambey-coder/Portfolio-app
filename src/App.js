@@ -12,7 +12,7 @@ function App() {
         setLoading(true)
         setTimeout(() => {
             setLoading(false)
-        }, 7000)
+        }, 6000)
     },[])
 
     const override = `
