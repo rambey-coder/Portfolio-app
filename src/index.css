@@ -35,3 +35,7 @@ body {
   height: 100vh;
   background: #fff;
 }
+
+body::selection {
+  background-color: #916bbf;
+}

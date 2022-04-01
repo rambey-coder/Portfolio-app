@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import Navbar from './Components/Navbar'
 import Intro from "./Components/Intro";
 import HashLoader from "react-spinners/HashLoader";
+import About from "./Components/About";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -39,6 +40,7 @@ function App() {
         <>
         <Navbar />
         <Intro />
+        <About />
         </>
       }
 

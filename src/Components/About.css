@@ -1,0 +1,44 @@
+/* #1c0c5b
+#3d2c8d
+#916bbf
+#f6ccef
+#a588b0
+#d700ff
+#fff */
+
+.abt-container {
+    width: 90%;
+    margin: auto;
+    position: relative;
+    top: 10rem;
+}
+
+.sub-abt {
+    width: 80%;
+    margin: auto;
+}
+
+
+
+.first > h1 {
+    color: #a588b0;
+    text-transform: capitalize;
+    display: inline-block;
+    font-size: 4vw;
+    margin-right: 5px;
+}
+
+.first > div {
+    width: 10vw;
+    height: 1px;
+    background-color: #a588b0;
+    display: inline-block;
+}
+
+.card1 > p {
+    color: #f6ccef;
+    font-size: 13px;
+    /* width: 40vw; */
+    line-height: 1.8;
+    font-weight: 500;
+}
