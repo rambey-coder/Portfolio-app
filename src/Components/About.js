@@ -34,7 +34,9 @@ const About = () => {
                </ul>
                </div>
             </div>
-            <div className="card2"></div>
+            <div className="card2">
+                <img src="./Assets/hand-coding-animate.svg" alt="profile" className='profile'/>
+            </div>
         </div>
         </div>
     </div>

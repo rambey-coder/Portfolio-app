@@ -62,3 +62,32 @@ ul li::before {
     width: 17px;
     margin-left: -1em;
   }
+
+.profile {
+    width: 100%;
+}
+
+.general-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.card1 {
+    width: 60%;
+}
+
+.card2 {
+    width: 40%;
+}
+
+@media screen and (max-width: 870px) {
+    .general-card {
+        flex-direction: column;
+    }
+
+    .card1, .card2 {
+        width: 100%;
+    }
+}
