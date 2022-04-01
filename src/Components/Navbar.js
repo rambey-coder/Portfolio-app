@@ -1,13 +1,12 @@
 import React from 'react'
 import './Navbar.css'
 import { useState } from 'react'
-// import { motion } from "framer-motion"
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
 
     const background = () => {
-        if(window.scrollY >= 80) {
+        if(window.scrollY >= 60) {
             setNav(true)
         } else {
             setNav(false)
@@ -28,10 +27,9 @@ const Navbar = () => {
             </div>
                 
                 <div className={click ? 'list-group active' : 'list-group'}>
-                    <li id='About'>About</li>
-                    <li>Experience</li>
-                    <li>Work</li>
-                    <li>Contact</li>
+                    <a className='nav-link' to='#about'>About</a>
+                    <a className='nav-link' to='#work'>Work</a>
+                    <a className='nav-link' to='#contact'>Contact</a>
                 </div>
 
 

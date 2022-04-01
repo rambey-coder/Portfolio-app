@@ -11,7 +11,7 @@ function App() {
         setLoading(true)
         setTimeout(() => {
             setLoading(false)
-        }, 9000)
+        }, 7000)
     },[])
 
     const override = `
@@ -29,7 +29,7 @@ function App() {
         size={50}
         background='transparent'
         css={override}
-        color={"#B01CCC"}
+        color={"#3d2c8d"}
         loading={loading}
         />
         </div>

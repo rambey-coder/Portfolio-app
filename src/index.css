@@ -1,15 +1,15 @@
-/* #6e167f
-#230029
-#774f7f
-#B01CCC
-#d700ff */
+/* #1c0c5b
+#3d2c8d
+#916bbf
+#c996cc
+#fff */
 
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Inter', sans-serif;
-  background: #230029;
+  background: #1c0c5b;
   overflow-x: hidden;
 }
 
@@ -19,12 +19,13 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #6e167f;       
+  background: #3d2c8d;       
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #774f7f;    
+  background-color: #916bbf;    
   border-radius: 20px;
+  height: 50px;
 }
 
 .loaders {
