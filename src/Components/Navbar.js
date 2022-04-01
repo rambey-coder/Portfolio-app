@@ -27,9 +27,9 @@ const Navbar = () => {
             </div>
                 
                 <div className={click ? 'list-group active' : 'list-group'}>
-                    <a className='nav-link' to='#about'>About</a>
-                    <a className='nav-link' to='#work'>Work</a>
-                    <a className='nav-link' to='#contact'>Contact</a>
+                    <a className='nav-link' href='#about'>About</a>
+                    <a className='nav-link' href='#work'>Work</a>
+                    <a className='nav-link' href='#contact'>Contact</a>
                 </div>
 
 

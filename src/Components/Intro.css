@@ -53,7 +53,7 @@
     font-weight: 500;
 }
 
-button {
+.button {
     outline: 0;
     background: transparent;
     border: 2px solid #916bbf;
@@ -61,27 +61,28 @@ button {
     color: #f6ccef;
     margin-top: 10px;
     min-width: 130px;
-    height: 40px;
-    padding: 5px 10px;
+    padding: 15px 20px;
     font-weight: bold;
     font-size: 14px;
     cursor: pointer;
     transition: all 0.3s ease;
     position: relative;
     display: inline-block;
+    text-decoration: none;
+    text-align: center;
     z-index: 0;
     overflow: hidden;
 }
 
-button:hover {
+.button:hover {
     color: #fff;
 }
 
-button:hover:after {
+.button:hover:after {
     width: 100%;
 }
 
-button:after {
+.button:after {
     content: "";
     position: absolute;
     z-index: -1;
@@ -93,7 +94,7 @@ button:after {
     background-color: #3d2c8d;
 }
 
-button:active {
+.button:active {
     color: #1c0c5b;
 }
 
@@ -119,9 +120,6 @@ svg:hover {
     stroke: #ffffff;
 }
 
-/* .icon {
-    width: 20px;
-} */
 
 .icon-link:hover {
     animation: rotate-in-center 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;

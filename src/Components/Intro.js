@@ -31,7 +31,7 @@ const Intro = () => {
             <h1>I build things for the web.</h1>
             <h3>FRONT-END WEB DEVELOPER.</h3>
             <p>Innovative Front End Developer with good years of experience in maintaining and building web pages. I like to craft solid and scalable frontend products with great user experiences. Highly skilled at progressive enhancement, design systems & UI Engineering.</p>
-            <button>Hire Me</button>
+            <a className='button' href='#'>Hire Me</a>
           </div>
         </div>
     </div>
