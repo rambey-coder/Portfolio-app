@@ -1,8 +1,11 @@
 import React from 'react'
 import './About.css'
+import Reveal from 'react-reveal/Reveal';
+
 const About = () => {
   return (
     <div className="abt-container" id='about'>
+        <Reveal effect="fadeInUp">
         <div className="sub-abt">
             <div className="first">
                 <h1>About Me.</h1>
@@ -39,6 +42,7 @@ const About = () => {
             </div>
         </div>
         </div>
+        </Reveal>
     </div>
   )
 }

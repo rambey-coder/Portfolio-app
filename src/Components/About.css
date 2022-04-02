@@ -69,13 +69,13 @@ ul li::before {
 
 .general-card {
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: space-between;
     width: 100%;
 }
 
 .card1 {
-    width: 60%;
+    width: 55%;
 }
 
 .card2 {

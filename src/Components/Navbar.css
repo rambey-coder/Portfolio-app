@@ -165,14 +165,15 @@
     .list-group {
         position: absolute;
         right: 0;
-        height: 90vh;
+        height: 92vh;
         width: 50%;
         top: 60px;
         backdrop-filter: blur(17px) saturate(191%);
         background-color: rgba(61, 44, 141, 0.66);
         /* border: 1px solid #f6ccefa4; */
         display: flex;
-        flex-direction: column;
+        justify-content: start;
+        flex-direction: column; 
         align-items: center;
         transform: translateX(100%);
         transition: transform 0.6s ease-in;
