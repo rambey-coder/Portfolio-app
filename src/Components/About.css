@@ -82,6 +82,10 @@ ul li::before {
     width: 40%;
 }
 
+div.card1 > a:nth-child(4) {
+    margin-left: 10px;
+}
+
 @media screen and (max-width: 870px) {
     .general-card {
         flex-direction: column;

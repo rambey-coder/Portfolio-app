@@ -27,7 +27,7 @@ function App() {
 
         <div className="loaders">
         <HashLoader
-        className= 'loader'
+        className='loader'
         size={50}
         background='transparent'
         css={override}
@@ -38,12 +38,12 @@ function App() {
 
         :
 
-        <>
+        <div>
         <Navbar />
         <Intro />
         <About />
         <Work />
-        </>
+        </div>
       }
 
     </div>

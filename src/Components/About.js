@@ -13,12 +13,16 @@ const About = () => {
             </div>
         <div className="general-card">
             <div className="card1">
-                <p>Hello! My name is Ramadan, and I enjoy creating things that live on the internet. My interest in web development started a long time ago when I decided to try editing custom wordpress themes — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!
+                <p>Hello! My name is Ramadan, and I enjoy creating things that live on the internet. My interest in web development started a long time ago when I decided to try editing custom wordpress themes, which made me develop huge interest in web development.
                 </p>
 
                 <p>
-                Fast-forward to today, and I’ve had the privilege of working on many projects using HTML, CSS, JAVASCRIPT, RFEACT JS, GIT & GITHUB, TAILWINDCSS and BOOTSRAP. My main focus these days is building accessible, inclusive products and digital experiences at Upstatement for a variety of clients.
+                Fast-forward to today, and I’ve had the privilege of working on many projects using differnt tools such as HTML, CSS, JAVASCRIPT, REACT JS. My main focus these days is building accessible, inclusive products and digital experiences at Upstatement for a variety of clients.
                 </p>
+
+                <a className='button' href='#'>View Resume</a>
+
+               <a className='button' href='#'>Download Resume</a>
 
                <p>Here are technologies I’ve been working with recently:</p>
 
