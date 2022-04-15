@@ -172,7 +172,7 @@
         background-color: rgba(61, 44, 141, 0.66);
         /* border: 1px solid #f6ccefa4; */
         display: flex;
-        justify-content: start;
+        justify-content: flex-start;
         flex-direction: column; 
         align-items: center;
         transform: translateX(100%);
