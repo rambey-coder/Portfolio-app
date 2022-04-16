@@ -1,6 +1,6 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Navbar.css'
-import { useState } from 'react'
+import { Link } from "react-scroll"
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
@@ -19,17 +19,57 @@ const Navbar = () => {
 
     const handleClick = () => setClick(!click);
 
+    const handleScroll = () => {
+        window.scrollTo({
+            top: 0, 
+            behavior: 'smooth',
+            duration: 500
+        })
+    }
+
   return (
     <div className={nav ? 'nav-container active' : 'nav-container' }>
         <div className="navbar">
-            <div className="logo">
-                <h1>RAMBEY</h1>
+            <div className="logo">  
+                <h1 onClick={handleScroll}>RAMBEY</h1>
             </div>
                 
                 <div className={click ? 'list-group active' : 'list-group'}>
-                    <a className='nav-link' href='#about'>About</a>
-                    <a className='nav-link' href='#work'>Work</a>
-                    <a className='nav-link' href='#contact'>Contact</a>
+                    <a className='nav-link' href='#about'>
+                        <Link
+                        activeClass="active"
+                        to="about"
+                        spy={true}
+                        smooth={true}
+                        offset={-100}
+                        duration={500}>
+                        About
+                        </Link>
+                        </a>
+
+                        <a className='nav-link' href='#about'>
+                        <Link
+                        activeClass="active"
+                        to="work"
+                        spy={true}
+                        smooth={true}
+                        offset={-100}
+                        duration={500}>
+                        Work
+                        </Link>
+                        </a>
+
+                        <a className='nav-link' href='#about'>
+                        <Link
+                        activeClass="active"
+                        to="contact"
+                        spy={true}
+                        smooth={true}
+                        offset={-100}
+                        duration={500}>
+                        Contact
+                        </Link>
+                        </a>
                 </div>
 
 

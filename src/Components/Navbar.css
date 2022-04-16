@@ -36,6 +36,7 @@
     text-transform: capitalize;
     margin: 0;
     animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.1s both;
+    cursor: pointer;
 }
 
 @keyframes scale-up-center {

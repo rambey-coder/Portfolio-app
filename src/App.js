@@ -1,5 +1,4 @@
-import React from "react";
-import { useState, useEffect } from "react";
+import React, { useState, useEffect }  from "react";
 import Navbar from './Components/Navbar'
 import Intro from "./Components/Intro";
 import HashLoader from "react-spinners/HashLoader";
