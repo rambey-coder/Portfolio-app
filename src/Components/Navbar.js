@@ -35,8 +35,8 @@ const Navbar = () => {
             </div>
                 
                 <div className={click ? 'list-group active' : 'list-group'}>
-                    <a className='nav-link' href='#about'>
                         <Link
+                        className='nav-link'
                         activeClass="active"
                         to="about"
                         spy={true}
@@ -45,10 +45,9 @@ const Navbar = () => {
                         duration={500}>
                         About
                         </Link>
-                        </a>
 
-                        <a className='nav-link' href='#about'>
                         <Link
+                        className='nav-link'
                         activeClass="active"
                         to="work"
                         spy={true}
@@ -57,10 +56,9 @@ const Navbar = () => {
                         duration={500}>
                         Work
                         </Link>
-                        </a>
 
-                        <a className='nav-link' href='#about'>
                         <Link
+                        className='nav-link'
                         activeClass="active"
                         to="contact"
                         spy={true}
@@ -69,7 +67,6 @@ const Navbar = () => {
                         duration={500}>
                         Contact
                         </Link>
-                        </a>
                 </div>
 
 
