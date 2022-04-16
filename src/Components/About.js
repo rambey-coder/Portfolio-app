@@ -18,10 +18,6 @@ const About = () => {
                 Fast-forward to today, and I’ve had the privilege of working on many projects using differnt tools such as HTML, CSS, JAVASCRIPT, REACT JS. My main focus these days is building accessible, inclusive products and digital experiences at Upstatement for a variety of clients.
                 </p>
 
-                <a className='button' href='#'>View Resume</a>
-
-               <a className='button' href='#'>Download Resume</a>
-
                <p>Here are technologies I’ve been working with recently:</p>
 
                <div className="second">
