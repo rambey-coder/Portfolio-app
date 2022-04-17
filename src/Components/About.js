@@ -36,7 +36,8 @@ const About = () => {
                </div>
             </div>
             <div className="card2">
-                <img src="./Assets/hand-coding-animate.svg" alt="profile" className='profile'/>
+                <img src="./Assets/profile.svg" alt="profile" className='profile'/>
+                
             </div>
         </div>
         </div>

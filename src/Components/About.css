@@ -40,7 +40,7 @@
     font-size: 13px;
     /* width: 40vw; */
     line-height: 1.8;
-    font-weight: 500;
+    font-weight: 300;
 }
 
 .second {
@@ -64,7 +64,8 @@ ul li::before {
   }
 
 .profile {
-    width: 100%;
+    /* width: 100%; */
+    width: 673.88px;
 }
 
 .general-card {
@@ -80,6 +81,9 @@ ul li::before {
 
 .card2 {
     width: 40%;
+    /* position: relative;
+    left: 140px; */
+    display: none;
 }
 
 div.card1 > a:nth-child(4) {

@@ -50,7 +50,7 @@
     width: 40vw;
     /* text-align: justify; */
     line-height: 1.8;
-    font-weight: 500;
+    font-weight: 300;
 }
 
 .button {
@@ -98,8 +98,9 @@
     color: #1c0c5b;
 }
 
-div.sub-container > div > a:nth-child(7) {
-    margin-left: 10px;
+div.sub-container > div > a:nth-child(6) {
+    margin-right: 10px;
+    background-color: #d700ff;
 }
 
 .side1 {
@@ -163,6 +164,10 @@ svg:hover {
 
     .side1 {
         display: none;
+    }
+
+    div.sub-container > div > a:nth-child(6) {
+        margin-right: 0;
     }
 }
 
