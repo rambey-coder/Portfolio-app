@@ -11,7 +11,19 @@
     margin: auto;
     position: relative;
     top: 7rem;
+    animation: slide-in-fwd-center 0.4s ease-out both 2s;
 }
+
+@keyframes slide-in-fwd-center {
+    0% {
+      transform: translateZ(-1400px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateZ(0);
+      opacity: 1;
+    }
+  }
 
 .sub-container {
     width: 80%;

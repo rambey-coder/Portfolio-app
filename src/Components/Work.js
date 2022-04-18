@@ -12,15 +12,35 @@ const Work = () => {
 
                 <div className='work-place'>
                     <div className='general-cont'>
-                      <div className='cont1'></div>
+
+                    <a href='https://live-rate.netlify.app/' target='_blank'><div className='cont1'></div></a>
+
                       <h3><a href='https://live-rate.netlify.app/' target='_blank'>
                         Crypto Live Rate
                       </a></h3>
+
                       <div className='cont-details'>
                         <div>REACT JS</div>
                         <div>AXIOS</div>
                         <div>CRYPTO CURRENCY API</div>
                       </div>
+                      
+                    </div>
+                    
+                    <div className='general-cont'>
+
+                    <a href='https://live-rate.netlify.app/' target='_blank'><div className='cont1'></div></a>
+
+                      <h3><a href='https://live-rate.netlify.app/' target='_blank'>
+                        Crypto Live Rate
+                      </a></h3>
+
+                      <div className='cont-details'>
+                        <div>REACT JS</div>
+                        <div>AXIOS</div>
+                        <div>CRYPTO CURRENCY API</div>
+                      </div>
+
                     </div>
                 </div>
         </div>
