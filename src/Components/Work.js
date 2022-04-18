@@ -3,7 +3,7 @@ import './Work.css'
 
 const Work = () => {
   return (
-    <div className="wrk-container" id='work'>
+    <div className="work-container" id='work'>
         <div className="sub-wrk">
             <div className="first">
                 <h1>PROJECTS.</h1>
@@ -11,17 +11,17 @@ const Work = () => {
                 </div>
 
                 <div className='work-place'>
-                  <div className='cont1'>
-                    <img src='/Assets/bitcoin-rate.png' alt='projects' className='bitcoin'/>
-
-                    <h3>Crypto Live Rate</h3>
-                  </div>
-
-                  {/* <div className='cont1'>
-                    <img src='/Assets/bitcoin-rate.png' alt='projects' className='bitcoin'/>
-
-                    <h3>Crypto Live Rate</h3>
-                  </div> */}
+                    <div className='general-cont'>
+                      <div className='cont1'></div>
+                      <h3><a href='https://live-rate.netlify.app/' target='_blank'>
+                        Crypto Live Rate
+                      </a></h3>
+                      <div className='cont-details'>
+                        <div>REACT JS</div>
+                        <div>AXIOS</div>
+                        <div>CRYPTO CURRENCY API</div>
+                      </div>
+                    </div>
                 </div>
         </div>
     </div>

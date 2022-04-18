@@ -18,9 +18,7 @@
     margin: auto;
 }
 
-
-
-.first > h1 {
+.first>h1 {
     color: #a588b0;
     text-transform: capitalize;
     display: inline-block;
@@ -28,14 +26,14 @@
     margin-right: 5px;
 }
 
-.first > div {
+.first>div {
     width: 10vw;
     height: 1px;
     background-color: #a588b0;
     display: inline-block;
 }
 
-.card1 > p {
+.card1>p {
     color: #f6ccef;
     font-size: 13px;
     /* width: 40vw; */
@@ -45,27 +43,34 @@
 
 .second {
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
 }
 
-ul li {
-    font-size: 13px;
-    color: #a588b0;
-    font-weight: 400;
-    line-height: 1.7;
-    list-style-type: none;
+.technology > div {
+    background: #080047F5;
+    border: 1px solid #30206F;
+    font-size: 9px;
+    color: #f6ccef;
+    padding: 13px 15px;
+    width: 70px;
+    text-align: center;
+    border-radius: 5px;
 }
 
-ul li::before {
-    content: "\2022";
-    color: #d700ff;
-    display: inline-block; 
-    width: 17px;
-    margin-left: -1em;
-  }
+.technology {
+    display: flex;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    gap: 1rem;
+}
 
 .profile {
-    /* width: 100%; */
-    width: 673.88px;
+    width: 100%;
 }
 
 .general-card {
@@ -80,13 +85,13 @@ ul li::before {
 }
 
 .card2 {
-    width: 40%;
-    /* position: relative;
-    left: 140px; */
+    width: 44%;
+    position: relative;
+    /* left: 185px; */
     display: none;
 }
 
-div.card1 > a:nth-child(4) {
+div.card1>a:nth-child(4) {
     margin-left: 10px;
 }
 
@@ -94,8 +99,17 @@ div.card1 > a:nth-child(4) {
     .general-card {
         flex-direction: column;
     }
-
-    .card1, .card2 {
+    .card1,
+    .card2 {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .second {
+        flex-direction: row;
+    }
+    .technology {
+        flex-direction: column;
     }
 }
