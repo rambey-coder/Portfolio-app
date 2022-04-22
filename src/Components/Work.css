@@ -46,6 +46,21 @@
     text-align: center;
 }
 
+.cont2 {
+    width: 100%;
+    padding: 30px 0 0 0;
+    backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(61, 44, 141, 0.75);
+    background: url(/public/Assets/unsplash.PNG);
+    background-size: cover;
+    background-position: center;
+    height: 13rem;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    text-align: center;
+}
+
 .work-place > div > h3 {
     margin-bottom: 0;
     margin-top: 11px;

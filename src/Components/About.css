@@ -88,7 +88,7 @@
     width: 44%;
     position: relative;
     /* left: 185px; */
-    display: none;
+    /* display: none; */
 }
 
 div.card1>a:nth-child(4) {
