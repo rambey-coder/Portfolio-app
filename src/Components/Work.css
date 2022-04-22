@@ -88,3 +88,20 @@
     text-align: center;
     border-radius: 5px;
 }
+
+@media screen and (max-width:990px) {
+    .work-place {
+        flex-direction: column;
+    }
+
+    .general-cont {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .cont-details {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+}
