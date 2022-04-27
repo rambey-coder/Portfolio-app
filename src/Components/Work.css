@@ -75,6 +75,7 @@
 .cont-details {
     margin-top: 11px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 1rem;
 }
@@ -99,9 +100,10 @@
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 453px) {
     .cont-details {
-        flex-direction: column-reverse;
+        /* flex-direction: column-reverse; */
+        flex-wrap: wrap;
         align-items: flex-start;
     }
 }
