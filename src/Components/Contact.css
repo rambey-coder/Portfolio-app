@@ -27,74 +27,77 @@
     margin-bottom: 30px;
 }
 
-.form-input {
-    width: 60%;
-}
-
 .forms {
-    width: 100%;
+    width: 60%;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
     flex-direction: column;
-    gap: 10px;
-    box-sizing: border-box;
-}
-
-.form-input > .forms > div:nth-child(1) {
-    width: 100%;
-    display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 10px;
+    gap: 1rem;
 }
 
-.form-input > .forms > div {
+.forms > div {
     width: 100%;
 }
 
-.form-input > .forms > div > input {
-    padding: 17px 10px;
+.forms > div > input {
     width: 100%;
-    background-color: #3d2c8d;
-    color: #f6ccef;
-    border: 0;
+    height: 44px;
+    padding: 10px;
+    box-sizing: border-box;
     outline: 0;
+    border: 0;
     border-radius: 5px;
-}
-
-.form-input > .forms > div:nth-child(2) > input {
-    width: 100%;
-}
-
-.form-input > .forms > div:nth-child(3) > textarea {
-    width: 100%;
-    height: 170px;
-    background-color: #3d2c8d;
+    background: #3d2c8d;
     color: #f6ccef;
+    font-weight: 300;
+}
+
+form > div:nth-child(3) > textarea {
+    width: 100%;
+    height: 160px;
     resize: none;
     padding: 10px;
-    border: 0;
+    box-sizing: border-box;
     outline: 0;
+    border: 0;
     border-radius: 5px;
+    background: #3d2c8d;
+    color: #f6ccef;
+    font-weight: 300;
+    font-family: 'Inter', sans-serif;
+}
+
+form > div:nth-child(1) {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
 }
 
 ::placeholder {
-    color: #916bbf;
-    font-size: 13px;
+    color: #f6ccef;
+    font-weight: 300;
 }
 
-@media screen and (max-width:895px) {
-    .form-input {
-        width: 90%;
+@media screen and (max-width: 820px) {
+    #contact > div > div.first > p {
+        width: 60vw;
     }
 
+    .forms {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 420px) {
     #contact > div > div.first > p {
         width: 70vw;
     }
 
-    .form-input > .forms > div:nth-child(1) {
+    .forms {
+        width: 90%;
+    }
+
+    form > div:nth-child(1) {
         flex-direction: column;
-        align-items: center;
     }
 }

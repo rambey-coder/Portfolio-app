@@ -22,7 +22,6 @@ const Contact = () => {
                 </p>
             </div>
 
-            <div className='form-input'>
                 <form className='forms' ref={form} onSubmit={sendEmail}>
                     <div>
                         <input  type='text' name='user_name' placeholder='Name'/>
@@ -39,7 +38,6 @@ const Contact = () => {
 
                     <input type='submit' className='button' value='Send Message!'/>
                 </form>
-            </div>
         </div>
     </div>
   )
