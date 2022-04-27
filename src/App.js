@@ -4,6 +4,7 @@ import Intro from "./Components/Intro";
 import HashLoader from "react-spinners/HashLoader";
 import About from "./Components/About";
 import Work from "./Components/Work";
+import Contact from "./Components/Contact";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -42,6 +43,7 @@ function App() {
         <Intro />
         <About />
         <Work />
+        <Contact />
         </div>
       }
 
