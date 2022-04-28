@@ -16,10 +16,10 @@ const Contact = () => {
     <div className="contact-container" id='contact'>
         <div className="sub-contact" >
             <div className="first">
-                <h1>CONTACT ME.</h1>
+                <h1>LET'S TALK.</h1>
                 <div></div>
                 <p>
-                    I'm interested in freelance and contract gigs - especially ambitious or large projects. However, if you have any other question, don't hesitate to contact me through the form below or my social media.
+                    I'm open for both freelance and fulltime contracts. Feel free to reach out and discuss your interesting ideas. LET'S CREATE WONDERS TOGETHER
                 </p>
             </div>
 
