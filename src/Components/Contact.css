@@ -85,10 +85,19 @@ form > div:nth-child(1) {
 
 .side-footer {
     display: none;
+    padding: 10px 0;
 }
 
 .side-footer > .icon-link > svg:hover{
     stroke: #d700ff;
+}
+
+.footer > p {
+    text-align: center;
+    color: #a588b0;
+    font-size: 12px;
+    font-weight: 300;
+    padding: 10px 0;
 }
 
 @media screen and (max-width: 870px) {
