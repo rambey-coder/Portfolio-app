@@ -1,17 +1,9 @@
-/* #1c0c5b
-#3d2c8d
-#916bbf
-#f6ccef
-#a588b0
-#d700ff
-#fff */
-
 .contact-container {
-    width: 90%;
+    width: 100%;
     margin: auto;
     position: relative;
-    background: url(/public/Assets/Sprinkle.svg);
     top: 17rem;
+    background: url(/public/Assets/Sprinkle.svg);
 }
 
 .sub-contact {
