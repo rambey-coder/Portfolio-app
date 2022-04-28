@@ -10,6 +10,7 @@
     width: 90%;
     margin: auto;
     position: relative;
+    background: url(/public/Assets/Sprinkle.svg);
     top: 17rem;
 }
 
@@ -76,6 +77,30 @@ form > div:nth-child(1) {
 ::placeholder {
     color: #f6ccef;
     font-weight: 300;
+}
+
+.footer {
+    margin-top: 20px;
+}
+
+.side-footer {
+    display: none;
+}
+
+.side-footer > .icon-link > svg:hover{
+    stroke: #d700ff;
+}
+
+@media screen and (max-width: 870px) {
+    .side-footer {
+        display: block;
+        width: 70%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        justify-content: space-between;
+    }
 }
 
 @media screen and (max-width: 820px) {
