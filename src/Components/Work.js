@@ -42,6 +42,22 @@ const Work = () => {
                       </div>
 
                     </div>
+
+                    <div className='general-cont'>
+
+                    <a href='https://converter-crypto.netlify.app/' target='_blank'><div className='cont3'></div></a>
+
+                      <h3><a href='https://converter-crypto.netlify.app/' target='_blank'>
+                        Currency Converter & News
+                      </a></h3>
+
+                      <div className='cont-details'>
+                        <div>REACT JS</div>
+                        <div>AXIOS</div>
+                        <div>RAPID API</div>
+                      </div>
+
+                    </div>
                 </div>
         </div>
     </div>
