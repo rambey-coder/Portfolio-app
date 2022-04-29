@@ -33,7 +33,7 @@ const Intro = () => {
             <p>Innovative Front End Developer with good years of experience in maintaining and building web pages. I like to craft solid and scalable frontend products with great user experiences. Highly skilled at progressive enhancement, design systems & UI Engineering.</p>
             <a className='button' href='#contact'>Hire Me</a>
             
-            <a className='button' href='https://drive.google.com/file/d/181TWDZvG5jKBbU3hkYXEiKFqzdcUlE8X/view?usp=sharing' target='_blank'>View Resume</a>
+            <a className='button' href='https://drive.google.com/file/d/1gL13CU2MRiWKDZlw_HB8QYVhuvCm71gF/view?usp=sharing' target='_blank'>View Resume</a>
           </div>
         </div>
     </div>
