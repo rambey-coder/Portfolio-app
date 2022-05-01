@@ -58,6 +58,22 @@ const Work = () => {
                       </div>
 
                     </div>
+
+                    <div className='general-cont'>
+
+                    <a href='https://cointrades.netlify.app/' target='_blank'><div className='cont4'></div></a>
+
+                      <h3><a href='https://cointrades.netlify.app/' target='_blank'>
+                        Coin.com
+                      </a></h3>
+
+                      <div className='cont-details'>
+                        <div>REACT JS</div>
+                        <div>TAILWINDCSS</div>
+                        <div>COINGECKO API</div>
+                      </div>
+
+                    </div>
                 </div>
         </div>
     </div>
