@@ -98,7 +98,7 @@ form > div:nth-child(1) {
     .side-footer {
         display: block;
         width: 70%;
-        margin: auto;
+        /* margin: auto; */
         display: flex;
         align-items: center;
         gap: 1rem;
