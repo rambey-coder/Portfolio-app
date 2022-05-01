@@ -9,6 +9,8 @@
 .sub-contact {
     width: 80%;
     margin: auto;
+    display: grid;
+    place-items: center;
 }
 
 #contact > div > div.first > p {

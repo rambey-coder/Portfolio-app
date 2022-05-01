@@ -1,15 +1,7 @@
-import React, { useRef, useState } from 'react'
+import React from 'react'
 import './Contact.css'
-import emailjs from '@emailjs/browser';
 
 const Contact = () => {
-    const form = useRef();
-
-    const sendEmail = (e) => {
-      e.preventDefault();
-  
-      emailjs.sendForm('service_tbq16an', 'template_9g6kt0c', form.current, 'Kfb_H9e07SsApsrSg')
-    };
 
   return (
     <div className='bg-pattern'>
@@ -23,10 +15,12 @@ const Contact = () => {
                 </p>
             </div>
 
-                <form className='forms' ref={form} onSubmit={sendEmail}>
+                <form className='forms' id="contactform" action="https://formsubmit.io/send/1fad9cd4-4248-4744-9691-8556bb88cd73" method="POST">
                     <div>
-                        <input  type='text' name='user_name' placeholder='Name'/>
+                        <input  type='name' name='user_name' placeholder='Name'/>
                         <input  type='email' placeholder='Email' name='user_email'/>
+                        <input name="honeypot" type="text" style={{display: 'none'}}/>
+                        <input name="_redirect" type="hidden" id="name" value="https://redirecting-portfolio.netlify.app/"/>
                     </div>
                     
                     <div>
@@ -34,7 +28,7 @@ const Contact = () => {
                     </div>
                     
                     <div>
-                     <textarea name='message' placeholder='Message'/>
+                     <textarea name='comment' placeholder='Message'/>
                     </div>
 
                     <input type='submit' className='button' value='Send Message!'/>
