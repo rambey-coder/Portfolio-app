@@ -125,7 +125,6 @@
 
 @media screen and (max-width: 453px) {
     .cont-details {
-        /* flex-direction: column-reverse; */
         flex-wrap: wrap;
         align-items: flex-start;
     }

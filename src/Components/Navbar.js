@@ -6,7 +6,7 @@ const Navbar = () => {
     const [nav, setNav] = useState(false);
 
     const background = () => {
-        if(window.scrollY >= 60) {
+        if (window.scrollY >= 60) {
             setNav(true)
         } else {
             setNav(false)
@@ -21,21 +21,21 @@ const Navbar = () => {
 
     const handleScroll = () => {
         window.scrollTo({
-            top: 0, 
+            top: 0,
             behavior: 'smooth',
             duration: 500
         })
     }
 
-  return (
-    <div className={nav ? 'nav-container active' : 'nav-container' }>
-        <div className="navbar">
-            <div className="logo">  
-                <h1 onClick={handleScroll}>RAMBEY</h1>
-            </div>
-                
+    return (
+        <div className={nav ? 'nav-container active' : 'nav-container'}>
+            <div className="navbar">
+                <div className="logo">
+                    <h1 onClick={handleScroll}>RAMBEY</h1>
+                </div>
+
                 <div className={click ? 'list-group active' : 'list-group'}>
-                        <Link
+                    <Link
                         className='nav-link'
                         activeClass="active"
                         to="about"
@@ -44,9 +44,9 @@ const Navbar = () => {
                         offset={-100}
                         duration={500}>
                         About
-                        </Link>
+                    </Link>
 
-                        <Link
+                    <Link
                         className='nav-link'
                         activeClass="active"
                         to="work"
@@ -55,9 +55,9 @@ const Navbar = () => {
                         offset={-100}
                         duration={500}>
                         Work
-                        </Link>
+                    </Link>
 
-                        <Link
+                    <Link
                         className='nav-link'
                         activeClass="active"
                         to="contact"
@@ -66,18 +66,18 @@ const Navbar = () => {
                         offset={-100}
                         duration={500}>
                         Contact
-                        </Link>
+                    </Link>
                 </div>
 
 
-            <div className="icons" onClick={handleClick}>
-                <div className={click ? "bar1 active" : "bar1"}></div>
-                <div className={click ? "bar2 active" : "bar2"}></div>
-                <div className={click ? "bar3 active" : "bar3"}></div>
+                <div className="icons" onClick={handleClick}>
+                    <div className={click ? "bar1 active" : "bar1"}></div>
+                    <div className={click ? "bar2 active" : "bar2"}></div>
+                    <div className={click ? "bar3 active" : "bar3"}></div>
+                </div>
             </div>
         </div>
-    </div>
-  )
+    )
 }
 
 export default Navbar
