@@ -31,13 +31,13 @@ const Intro = () => {
             <h1>I build things for the web.</h1>
             <h3>FRONT-END WEB DEVELOPER.</h3>
             <p>Innovative Front End Developer with good experience in maintaining and building web pages. I like to craft solid and scalable frontend products with great user experiences. Highly skilled at progressive enhancement, design systems & UI Engineering.</p>
-            <a className='button' href='#contact'>Hire Me</a>
+            <a className='button' href='https://drive.google.com/file/d/10jUiT1WkMH42VTbf6vYK3cWZBmHaywPe/view?usp=sharing'>View Resume</a>
             
-            <a className='button' href='https://drive.google.com/file/d/10jUiT1WkMH42VTbf6vYK3cWZBmHaywPe/view?usp=sharing' target='_blank'>View Resume</a>
+            <a className='button' href='https://drive.google.com/file/d/14gt9Dq1w0sprestwQ0Ad9WzT4jopR_V4/view?usp=sharing' target='_blank'>View Cover Letter</a>
           </div>
         </div>
     </div>
   )
 }
-
+// 
 export default Intro
