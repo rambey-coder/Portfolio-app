@@ -32,7 +32,7 @@ const Work = () => {
             <a href='https://clone-unsplash-app.netlify.app/' target='_blank'><div className='cont2'></div></a>
 
             <h3><a href='https://clone-unsplash-app.netlify.app/' target='_blank'>
-              Unsplash Clone
+              Image Gallery
             </a></h3>
 
             <div className='cont-details'>
@@ -64,7 +64,7 @@ const Work = () => {
             <a href='https://cointrades.netlify.app/' target='_blank'><div className='cont4'></div></a>
 
             <h3><a href='https://cointrades.netlify.app/' target='_blank'>
-              Coin.com
+              Coin Trades
             </a></h3>
 
             <div className='cont-details'>
