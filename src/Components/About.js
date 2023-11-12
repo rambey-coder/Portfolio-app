@@ -32,7 +32,7 @@ const About = () => {
                                 <div> BOOTSRAP </div>
                             </div>
 
-                            <div className='technology'><div> TAILWINDCSS </div></div>
+                            <div className='technology'><div> TAILWINDCSS </div> <div> TYPESCRIPT </div> <div> SCSS </div> </div>
                         </div>
                     </div>
                     <div className="card2">
