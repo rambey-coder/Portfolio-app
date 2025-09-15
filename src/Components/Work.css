@@ -1,131 +1,154 @@
 .work-container {
-    width: 90%;
-    margin: auto;
+  width: 100%;
+  margin-top: 5rem;
+  /* margin: auto;
     position: relative;
-    top: 12rem;
+    top: 12rem; */
 }
 
 .sub-wrk {
-    width: 80%;
-    margin: auto;
+  width: 100%;
+  margin: auto;
 }
 
 .work-place {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    gap: 2.7rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.7rem;
 }
 
 .general-cont {
-    width: 45%;
-    height: 100%;
+  width: 45%;
+  height: 100%;
 }
 
 .cont1 {
-    width: 100%;
-    padding: 30px 0 0 0;
-    backdrop-filter: blur(16px) saturate(180%);
-    background-color: rgba(61, 44, 141, 0.75);
-    background: url(/public/Assets/bitcoin-rate.PNG);
-    background-size: cover;
-    background-position: center;
-    height: 13rem;
-    background-repeat: no-repeat;
-    border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.125);
-    text-align: center;
+  width: 100%;
+  padding: 30px 0 0 0;
+  backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(61, 44, 141, 0.75);
+  background: url(/public/Assets/bitcoin-rate.PNG);
+  background-size: cover;
+  background-position: center;
+  height: 13rem;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  text-align: center;
 }
 
 .cont2 {
-    width: 100%;
-    padding: 30px 0 0 0;
-    backdrop-filter: blur(16px) saturate(180%);
-    background-color: rgba(61, 44, 141, 0.75);
-    background: url(/public/Assets/unsplash.PNG);
-    background-size: cover;
-    background-position: center;
-    height: 13rem;
-    background-repeat: no-repeat;
-    border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.125);
-    text-align: center;
+  width: 100%;
+  padding: 30px 0 0 0;
+  backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(61, 44, 141, 0.75);
+  background: url(/public/Assets/unsplash.PNG);
+  background-size: cover;
+  background-position: center;
+  height: 13rem;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  text-align: center;
 }
 
 .cont3 {
-    width: 100%;
-    padding: 30px 0 0 0;
-    backdrop-filter: blur(16px) saturate(180%);
-    background-color: rgba(61, 44, 141, 0.75);
-    background: url(/public/Assets/currency.PNG);
-    background-size: cover;
-    background-position: center;
-    height: 13rem;
-    background-repeat: no-repeat;
-    border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.125);
-    text-align: center;
+  width: 100%;
+  padding: 30px 0 0 0;
+  backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(61, 44, 141, 0.75);
+  background: url(/public/Assets/currency.PNG);
+  background-size: cover;
+  background-position: center;
+  height: 13rem;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  text-align: center;
 }
 
 .cont4 {
-    width: 100%;
-    padding: 30px 0 0 0;
-    backdrop-filter: blur(16px) saturate(180%);
-    background-color: rgba(61, 44, 141, 0.75);
-    background: url(/public/Assets/coin.PNG);
-    background-size: cover;
-    background-position: center;
-    height: 13rem;
-    background-repeat: no-repeat;
-    border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.125);
-    text-align: center;
+  width: 100%;
+  padding: 30px 0 0 0;
+  backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(61, 44, 141, 0.75);
+  background: url(/public/Assets/coin.PNG);
+  background-size: cover;
+  background-position: center;
+  height: 13rem;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  text-align: center;
 }
 
 .work-place > div > h3 {
-    margin-bottom: 0;
-    margin-top: 11px;
-    font-size: 30px;
+  margin-bottom: 0;
+  margin-top: 11px;
+  font-size: 30px;
 }
 
 .work-place > div > h3 > a {
-    color: #f6ccef;
-    text-decoration: none;
+  color: #f6ccef;
+  text-decoration: none;
 }
 
 .cont-details {
-    margin-top: 11px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 1rem;
+  margin-top: 11px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
 }
 
 .cont-details > div {
-    background: #080047F5;
-    border: 1px solid #30206F;
-    font-size: 10px;
-    color: #f6ccef;
-    padding: 13px 15px;
-    text-align: center;
-    border-radius: 5px;
+  background: #080047f5;
+  border: 1px solid #30206f;
+  font-size: 10px;
+  color: #f6ccef;
+  padding: 13px 15px;
+  text-align: center;
+  border-radius: 5px;
 }
 
-@media screen and (max-width:990px) {
-    .work-place {
-        flex-direction: column;
-    }
+@media screen and (max-width: 990px) {
+  .work-place {
+    flex-direction: column;
+  }
 
-    .general-cont {
-        width: 100%;
-    }
+  .general-cont {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 453px) {
-    .cont-details {
-        flex-wrap: wrap;
-        align-items: flex-start;
-    }
+  .cont-details {
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+}
+
+.exp-card {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.exp-card p {
+  color: #f6ccef;
+  font-size: 13px;
+  /* margin-top: 0; */
+}
+
+.exp-year {
+  width: 60%;
+}
+
+.exp-card h2 {
+  color: #916bbf;
+  /* margin-top: 0; */
 }

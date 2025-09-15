@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   background: #1c0c5b;
   overflow-x: hidden;
 }
@@ -16,11 +16,11 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #3d2c8d;       
+  background: transparent;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #916bbf;    
+  background-color: #916bbf;
   border-radius: 20px;
   height: 50px;
 }
@@ -35,4 +35,27 @@ body {
 
 body::selection {
   background-color: #916bbf;
+}
+
+.app {
+  display: flex;
+  align-items: start;
+  height: 85dvh;
+  max-width: 1400px;
+  overflow: hidden;
+  width: 80%;
+  margin: 6rem auto auto auto;
+}
+
+.right-side {
+  height: 100dvh;
+  overflow: auto;
+  width: 100%;
+  margin: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.right-side::-webkit-scrollbar {
+  display: none;
 }
