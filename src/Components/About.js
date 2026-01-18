@@ -12,42 +12,35 @@ const About = () => {
         <div className="general-card">
           <div className="card1">
             <p>
-              I'm an innovative and passionate Frontend & Mobile Developer who
-              loves to craft solid, scalable, and delightful user experiences
-              across web and mobile platforms. My work lies at the intersection
-              of design and engineering, creating products that are not only
-              high-performing but also meticulously built for usability and
-              cross-platform compatibility.
+              Cross-platform Software Engineer with 3+ years of experience
+              building scalable web and mobile applications using React, React
+              Native, Flutter, and TypeScript. I specialize in crafting
+              performant, accessible, and user-centric experiences at the
+              intersection of design and engineering.
             </p>
             <p>
-              In the past, I've had the opportunity to develop software across a
-              variety of settings from fintech and agricultural platforms to
-              AI-powered transcription services and payroll systems. I've worked
-              on freelance contracts with clients like Vision Total (LVT) and
-              Sangabooks, developing AI-powered applications that use the OpenAI
-              and Plaid API for advanced document processing and financial
-              insights. I also developed a mobile-optimized web application
-              using the RingCentral Call SDK for a real-time voice calling
-              service with accent conversion capabilities.
+              I’ve delivered production-grade solutions across fintech,
+              agriculture, AI-powered transcription, and payroll systems,
+              working on both freelance and product teams. My experience
+              includes building secure financial tools, AI-driven applications
+              leveraging OpenAI and Plaid APIs, real-time voice solutions using
+              the RingCentral Call SDK, crypto wallet integrations, and
+              automated payroll platforms.
             </p>
             <p>
-              My skills extend to building secure financial tools, including
-              crypto wallet integration for a trading platform dashboard and
-              automated payroll systems. Through all my projects, I've focused
-              on progressive enhancement, UI engineering, and ensuring
-              applications meet web accessibility and usability standards.
+              I’m known for owning features end-to-end, writing modular and
+              reusable code, and delivering reliable integrations such as
+              authentication, maps, payments, real-time communication, and data
+              visualization. I work comfortably both independently and in
+              collaboration with leadership, contributing through code reviews,
+              PR management, and architectural decisions.
             </p>
             <p>
-              In my spare time, I’m usually learning new skills to become a
-              top-class engineer in both the web and mobile domains.
+              Outside of active projects, I continuously refine my skills to
+              grow into a top-class engineer across both web and mobile
+              ecosystems.
             </p>
           </div>
-          {/* <div className="card2">
-                        <img src="./Assets/profile.svg"
-                            alt="profile"
-                            className='profile' />
-
-                    </div> */}
         </div>
       </div>
     </div>

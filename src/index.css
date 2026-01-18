@@ -5,6 +5,8 @@ body {
   font-family: "Inter", sans-serif;
   background: #1c0c5b;
   overflow-x: hidden;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
 * {
@@ -13,6 +15,7 @@ body {
 
 ::-webkit-scrollbar {
   width: 10px;
+  display: none;
 }
 
 ::-webkit-scrollbar-track {
@@ -23,6 +26,7 @@ body {
   background-color: #916bbf;
   border-radius: 20px;
   height: 50px;
+  display: none;
 }
 
 .loaders {
@@ -40,7 +44,7 @@ body::selection {
 .app {
   display: flex;
   align-items: start;
-  height: 85dvh;
+  /* height: 85dvh; */
   max-width: 1400px;
   overflow: hidden;
   width: 80%;
