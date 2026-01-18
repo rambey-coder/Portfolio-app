@@ -17,22 +17,24 @@ const Intro = () => {
           <h2>Bello Ramadan.</h2>
           {/* <h1>I build things for the web.</h1> */}
           <h3>FRONT END & MOBILE DEVELOPER.</h3>
-          <p>
-            I'm an innovative Frontend & Mobile Developer who crafts solid,
-            scalable, and delightful user experiences.
-          </p>
-          {/* <a
-            className="button"
-            href="https://drive.google.com/file/d/1ddRPgX2C8VOHmRDSqJ9kCn8bkiibAT2Q/view?usp=sharing">
-            View Resume
-          </a>
+          {/* <p>
+            Cross-platform Software Engineer with 3+ years of experience
+            building and scaling web and mobile applications using React, React
+            Native, Flutter, and TypeScript. Proven track record of owning
+            features end-to-end, structuring modular and reusable codebases, and
+            delivering production-ready integrations including authentication,
+            maps, payments, real-time communication, and data visualization.
+            Trusted collaborator with leadership, experienced in code reviews,
+            PR management, and working independently across multiple projects.
+          </p> */}
 
           <a
             className="button"
-            href="https://drive.google.com/file/d/1UDhNPP8lhK85qUXWLdmwvnoEoL5hZcfy/view?usp=sharing"
-            target="_blank">
-            View Cover Letter
-          </a> */}
+            href="https://drive.google.com/file/d/12gjlvCFLNFDhXpEITbKra2N9YajScv_R/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer">
+            View CV
+          </a>
         </div>
 
         <div className="side1">
